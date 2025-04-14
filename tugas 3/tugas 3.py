@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.impute import SimpleImputer
 
-df = pd.read_csv(r'D:\tambang\tugas 2\train.csv')
+df = pd.read_csv(r'D:\tambang\tugas 3\train.csv')
 # Mengisi missing values
 imputer_age = SimpleImputer(strategy='median')
 df['Age'] = imputer_age.fit_transform(df[['Age']])
