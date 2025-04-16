@@ -14,7 +14,7 @@ a = model.intercept_
 b = model.coef_[0]
 
 # Hasil Output Regresi
-print(f"Model regresi: Y = {a:.2f} + {b:.2f} X")
+print(f"Model regresi: Y = {int(a)} + {int(b)} X")
 
 # Hasil Prediksi penjualan
 prediksi = model.predict(np.array([[300]]))
