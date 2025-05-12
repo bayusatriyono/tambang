@@ -1,0 +1,11 @@
+C1,C2,C3,C4
+Murah,Dekat,Tidak,Ya
+Sedang,Dekat,Tidak,Ya
+Mahal,Dekat,Tidak,Ya
+Mahal,Jauh,Tidak,Tidak
+Mahal,Sedang,Tidak,Tidak
+Sedang,Jauh,Ya,Tidak
+Murah,Jauh,Ya,Tidak
+Murah,Sedang,Tidak,Ya
+Mahal,Jauh,Ya,Tidak
+Sedang,Sedang,Ya,Ya
